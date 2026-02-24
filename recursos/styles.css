@@ -1,0 +1,101 @@
+body {
+    background-color: #9b0059; 
+    color: #ffffff;
+    font-family: Arial, sans-serif; 
+    padding: 20px;
+}
+
+.cabecera {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.perfil-drake {
+    background-color: #000000;
+    padding: 15px;
+    width: 250px;
+    font-size: 12px;
+}
+
+.perfil-drake h2 {
+    color: #ffb3e6;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.foto-perfil {
+    width: 100%;
+    border: 2px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.area-compañeros {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border: 2px dashed #ffb3e6;
+}
+
+.area-principal {
+    flex-grow: 1;
+    background-color: #000000; 
+    padding: 20px;
+    border: 1px solid #ffb3e6;
+}
+
+.titulo-post {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.foto-principal {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.foto-principal img {
+    max-width: 100%;
+    width: 400px;
+    border: 3px solid #ffb3e6;
+}
+
+.descripcion-post {
+    text-align: center;
+    color: #cccccc;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.seccion-firmas h3 {
+    background-color: #ffb3e6;
+    color: #9b0059;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.firma {
+    background-color: #1a1a1a;
+    border-bottom: 1px dashed #ffb3e6;
+    padding: 10px;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.firma strong a {
+    color: #ffb3e6;
+    font-size: 12px;
+    text-decoration: none;
+}
