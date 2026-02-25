@@ -193,6 +193,32 @@ img { max-width: 100%; display: block; }
     margin: 0 auto 2rem;
 }
 
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.tecnologias span {
+    font-family: var(--fuente-mono);
+    font-size: 0.75rem;
+    color: var(--acento);
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.25);
+    border-radius: 4px;
+    padding: 0.35rem 0.75rem;
+    transition: all var(--transicion);
+}
+
+.tecnologias span:hover {
+    background: rgba(88, 166, 255, 0.15);
+    border-color: var(--acento);
+    transform: translateY(-1px);
+}
+
 
 .btn-principal {
     display: inline-flex;
