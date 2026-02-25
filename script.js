@@ -1,23 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
-const integrantes = [
-        { nombre: 'Alan',    foto: 'img/alan.png',    pagina: 'paginas/alan.html'    },
-        { nombre: 'Mariana', foto: 'img/mar.png',     pagina: 'paginas/mariana.html' },
-        { nombre: 'Ian',     foto: 'img/ian.png',     pagina: 'paginas/ian.html'     },
-        { nombre: 'Ale',     foto: 'img/ale.png',     pagina: 'paginas/ale.html'     },
-        { nombre: 'Franco',  foto: 'img/franco.png',  pagina: 'paginas/franco.html'  }
+    const integrantes = [
+        { nombre: 'Alan', foto: 'img/alan.png', pagina: 'paginas/alan.html' },
+        { nombre: 'Mariana', foto: 'img/mar.png', pagina: 'paginas/mariana.html' },
+        { nombre: 'Ian', foto: 'img/ian.png', pagina: 'paginas/ian.html' },
+        { nombre: 'Ale', foto: 'img/ale.png', pagina: 'paginas/alejandro.html' },
+        { nombre: 'Franco', foto: 'img/franco.png', pagina: 'paginas/franco.html' }
     ];
 
-const enlacesNav = [
-    { etiqueta: 'Contacto', icono: 'bx-envelope',   url: 'https://directorio.uaq.mx/index.php/coordinaciones' },
-    { etiqueta: 'Nosotros', icono: 'bx-info-circle', url: 'https://www.uaq.mx/index.php/conocenos/presentacion' },
-    { etiqueta: 'Servicio', icono: 'bx-server',      url: 'https://www.uaq.mx/informatica/' },
-];
+    const enlacesNav = [
+        { etiqueta: 'Contacto', icono: 'bx-envelope', url: 'https://directorio.uaq.mx/index.php/coordinaciones' },
+        { etiqueta: 'Nosotros', icono: 'bx-info-circle', url: 'https://www.uaq.mx/index.php/conocenos/presentacion' },
+        { etiqueta: 'Servicio', icono: 'bx-server', url: 'https://www.uaq.mx/informatica/' },
+    ];
 
-const menu = document.getElementById('menuDesplegable');
-const boton = document.getElementById('botonMenu');
-const cuadricula = document.getElementById('cuadriculaIntegrantes');
-const btnServicios = document.getElementById('btnVerServicios');
-if (menu) {
+    const menu = document.getElementById('menuDesplegable');
+    const boton = document.getElementById('botonMenu');
+    const cuadricula = document.getElementById('cuadriculaIntegrantes');
+    const btnServicios = document.getElementById('btnVerServicios');
+    if (menu) {
         enlacesNav.forEach(({ etiqueta, icono, url }) => {
             menu.innerHTML += `<a href="${url}" target="_blank" class="item-menu"><i class='bx ${icono}'></i>${etiqueta}</a>`;
         });

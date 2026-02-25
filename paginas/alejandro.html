@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alejandro - Backend Developer & Software Engineer</title>
+    <link rel="stylesheet" href="../recursos/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="inicio">
+      <nav class="navbar">
+        <div class="logo-nav">
+          <span class="logo-corchete">[</span>Alejandro<span
+            class="logo-corchete"
+            >]</span
+          >
+        </div>
+        <button class="boton-menu" id="botonMenu" aria-label="Abrir menú">
+          <img
+            src="../img/hamburger.svg"
+            alt="Menú"
+            class="icono-hamburguesa"
+          />
+        </button>
+        <div class="menu-desplegable" id="menuDesplegable">
+          <a href="#inicio" class="item-menu"
+            ><i class="bx bx-home"></i> Inicio</a
+          >
+          <a href="#sobre-mi" class="item-menu"
+            ><i class="bx bx-user"></i> Sobre mí</a
+          >
+          <a href="#habilidades" class="item-menu"
+            ><i class="bx bx-code-alt"></i> Habilidades</a
+          >
+          <a href="#proyectos" class="item-menu"
+            ><i class="bx bx-folder"></i> Proyectos</a
+          >
+          <a href="#fortalezas" class="item-menu"
+            ><i class="bx bx-medal"></i> Fortalezas</a
+          >
+          <a href="#pasiones" class="item-menu"
+            ><i class="bx bx-heart"></i> Pasiones</a
+          >
+          <a href="../index.html" class="item-menu"
+            ><i class="bx bx-arrow-back"></i> Volver</a
+          >
+        </div>
+      </nav>
+
+      <div class="tag">
+        <div class="etiqueta">Backend Developer · Software Engineer</div>
+        <h1 class="titulo-tag">
+          Construyendo<br /><span class="acento">Sistemas Escalables</span>
+        </h1>
+        <p class="descripcion-tag">
+          Estudiante de Ingeniería de Software en la UAQ. Especializado en
+          desarrollo backend, arquitectura de sistemas y diseño de aplicaciones
+          web escalables. Apasionado por construir soluciones funcionales desde
+          cero con código limpio y buenas prácticas.
+        </p>
+        <button class="btn-principal" id="btnVerHabilidades">
+          Conocer más <i class="bx bx-chevron-down"></i>
+        </button>
+      </div>
+
+      <div class="fondo-cuadricula"></div>
+    </header>
+
+    <main>
+      <!-- Sección Sobre Mí -->
+      <section class="seccion galeria" id="sobre-mi">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Sobre Mí</h2>
+          <div style="max-width: 800px; margin: 0 auto">
+            <p
+              style="
+                color: var(--texto-suave);
+                font-size: 1rem;
+                line-height: 1.8;
+                margin-bottom: 1.5rem;
+              "
+            >
+              Soy estudiante de
+              <strong style="color: var(--texto)"
+                >Ingeniería de Software en la Universidad Autónoma de Querétaro
+                (UAQ)</strong
+              >
+              con fuerte enfoque en desarrollo backend, arquitectura de sistemas
+              y diseño de aplicaciones web escalables.
+            </p>
+            <p
+              style="
+                color: var(--texto-suave);
+                font-size: 1rem;
+                line-height: 1.8;
+                margin-bottom: 1.5rem;
+              "
+            >
+              Me apasiona
+              <strong style="color: var(--acento)"
+                >construir sistemas funcionales desde cero</strong
+              >: diseño la base de datos, estructuro el backend con buenas
+              prácticas y conecto el frontend de forma limpia y eficiente.
+              Disfruto entender cómo funcionan las cosas internamente, optimizar
+              procesos y estructurar soluciones bien pensadas.
+            </p>
+            <p
+              style="
+                color: var(--texto-suave);
+                font-size: 1rem;
+                line-height: 1.8;
+                margin-bottom: 1.5rem;
+              "
+            >
+              Trabajo principalmente con tecnologías modernas del
+              <strong style="color: var(--texto)"
+                >ecosistema JavaScript/TypeScript</strong
+              >, especialmente orientado a backend con arquitecturas limpias y
+              despliegue en la nube.
+            </p>
+            <p
+              style="
+                color: var(--texto-suave);
+                font-size: 1rem;
+                line-height: 1.8;
+              "
+            >
+              También tengo una
+              <strong style="color: var(--texto)"
+                >mentalidad analítica sólida</strong
+              >
+              gracias a mi formación en cálculo, estructuras de datos y
+              optimización. Mi objetivo es desarrollarme como
+              <strong style="color: var(--acento)"
+                >Backend Developer o Software Engineer</strong
+              >
+              enfocado en arquitectura de sistemas, APIs robustas y diseño de
+              software profesional.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Habilidades Técnicas -->
+      <section class="seccion servicios" id="habilidades">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Stack Tecnológico</h2>
+          <div class="cuadricula-servicios">
+            <div class="tarjeta-servicio">
+              <div class="numero">01</div>
+              <h3>Backend Development</h3>
+              <p>
+                Mi principal fortaleza. NestJS, Node.js, TypeScript, APIs REST,
+                arquitectura modular. Enfocado en separación de
+                responsabilidades, escalabilidad, código limpio y seguridad en
+                autenticación con cookies y JWT.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">02</div>
+              <h3>Bases de Datos</h3>
+              <p>
+                PostgreSQL con TypeORM, diseño de esquemas relacionales,
+                modelado correcto de datos, manejo de relaciones complejas.
+                Docker para bases de datos en desarrollo. Optimización de
+                queries y estructura eficiente.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">03</div>
+              <h3>Frontend Development</h3>
+              <p>
+                Next.js 14, Tailwind CSS, Server Actions, consumo de APIs.
+                Interfaces minimalistas y funcionales. Estructuro el backend
+                pensando en cómo será consumido por el frontend para lograr
+                código más limpio.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">04</div>
+              <h3>DevOps & Infraestructura</h3>
+              <p>
+                Docker para entornos de desarrollo, deploy en Azure (Azure
+                Students), Git y GitHub colaborativo, publicación con GitHub
+                Pages. Experiencia configurando servicios HTTP y FTP en Windows
+                Server virtualizado.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">05</div>
+              <h3>Arquitectura de Software</h3>
+              <p>
+                Diseño de sistemas escalables, arquitectura limpia, patrones de
+                diseño, separación en capas. Mentalidad analítica con base
+                sólida en estructuras de datos, cálculo y optimización de
+                procesos.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">06</div>
+              <h3>Desarrollo SaaS</h3>
+              <p>
+                Construcción de productos orientados a suscripción, sistemas
+                multi-tenant, modelos de negocio escalables. Enfoque en crear
+                soluciones reales con visión comercial, no solo proyectos
+                académicos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Proyectos Destacados -->
+      <section class="seccion galeria" id="proyectos">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Proyectos Destacados</h2>
+          <p class="subtitulo-seccion">Soluciones reales que he construido</p>
+          <div class="cuadricula-servicios">
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-movie"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.5)"
+                ></i>
+              </div>
+              <h3>Cinerex - Sistema de Venta de Boletos</h3>
+              <p>
+                Backend en NestJS con PostgreSQL en Docker, TypeORM,
+                autenticación con cookies. Manejo de funciones, salas, usuarios
+                y compras. Frontend en Next.js 14 con Server Actions y Tailwind.
+                Arquitectura escalable y modular.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-shield"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.5)"
+                ></i>
+              </div>
+              <h3>Sistema de Gestión para Empresa de Seguridad</h3>
+              <p>
+                Aplicación web completa con NestJS + PostgreSQL. Gestión de
+                clientes, inventario, ubicaciones con coordenadas, visualización
+                en mapa de México con pines dinámicos, grabaciones, facturación
+                y pagos. Solución empresarial real.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-calendar-check"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.5)"
+                ></i>
+              </div>
+              <h3>Agenda de Citas Profesionales (SaaS)</h3>
+              <p>
+                Sistema minimalista para psicólogos, dentistas, coaches y
+                profesionales. Gestión de citas, modelo de suscripción, UX
+                simple y clara. Arquitectura preparada para escalar. Proyecto
+                con visión de monetización real.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-list-ol"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.5)"
+                ></i>
+              </div>
+              <h3>Turnómetro Callejero</h3>
+              <p>
+                Web app con backend en Supabase y frontend en Next.js. Sistema
+                simple, rápido y funcional con enfoque en experiencia de usuario
+                minimalista. Deploy en producción con flujo completo de turnos.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-server"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.5)"
+                ></i>
+              </div>
+              <h3>Windows Server - Configuración Virtualizada</h3>
+              <p>
+                Implementación en VirtualBox de Windows Server. Configuración de
+                servicios HTTP y FTP, asignación de IPs, DNS y gateway. Práctica
+                real de infraestructura y administración de sistemas.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-code-block"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.5)"
+                ></i>
+              </div>
+              <h3>Múltiples Proyectos Full Stack</h3>
+              <p>
+                Experiencia constante construyendo sistemas completos desde
+                cero. Diseño de bases de datos, desarrollo de APIs REST,
+                conexión con frontend. Enfoque en arquitectura limpia,
+                escalabilidad y resolución de problemas técnicos complejos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Fortalezas -->
+      <section class="seccion servicios" id="fortalezas">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Fortalezas & Enfoque</h2>
+          <div
+            class="cuadricula-servicios"
+            style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))"
+          >
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-brain"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Pensamiento Estructurado</h3>
+              <p>
+                Capacidad para diseñar arquitectura antes de escribir código.
+                Base sólida en estructuras de datos y algoritmos.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-data"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Diseño de Bases de Datos</h3>
+              <p>
+                Modelado correcto de datos relacionales, manejo eficiente de
+                relaciones complejas y optimización de queries.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-code-curly"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Código Limpio</h3>
+              <p>
+                Enfoque en buenas prácticas, separación de responsabilidades,
+                código mantenible y escalable.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-bulb"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Resolución de Problemas</h3>
+              <p>
+                Capacidad para analizar problemas técnicos complejos y encontrar
+                soluciones eficientes y elegantes.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-book-open"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Aprendizaje Autodidacta</h3>
+              <p>
+                Constante actualización con nuevas tecnologías, frameworks y
+                mejores prácticas de la industria.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-target-lock"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Visión de Producto</h3>
+              <p>
+                No solo desarrollo proyectos académicos, creo soluciones reales
+                con impacto y posibilidad de monetización.
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-shield-quarter"
+                  style="font-size: 2rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Liderazgo y Gestión de Equipos</h3>
+              <p>
+                Lidero equipos organizando, planificando, coordinando y
+                asegurando objetivos cumplidos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Pasiones -->
+      <section class="seccion integrantes" id="pasiones">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Más Allá del Código</h2>
+          <p class="subtitulo-seccion">
+            Pasiones que equilibran mi vida profesional
+          </p>
+          <div
+            class="cuadricula-servicios"
+            style="
+              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+              margin-bottom: 3rem;
+            "
+          >
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-football"
+                  style="font-size: 2.5rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Fútbol</h3>
+              <p>
+                El fútbol es mi escape y pasión. Tanto jugarlo como verlo me
+                apasiona. El trabajo en equipo, la estrategia táctica y la
+                mentalidad competitiva del deporte me inspiran también en el
+                desarrollo de software y la resolución de problemas.
+              </p>
+              <p
+                style="
+                  margin-top: 0.5rem;
+                  color: var(--acento);
+                  font-size: 0.82rem;
+                "
+              >
+                ⚽ Aficionado desde siempre • 🏆 Estrategia y análisis táctico
+              </p>
+            </div>
+            <div class="tarjeta-servicio">
+              <div class="numero">
+                <i
+                  class="bx bx-joystick"
+                  style="font-size: 2.5rem; color: rgba(88, 166, 255, 0.4)"
+                ></i>
+              </div>
+              <h3>Videojuegos</h3>
+              <p>
+                Los videojuegos son mi manera favorita de desconectar y recargar
+                energías. Desde RPGs inmersivos hasta shooters competitivos. Me
+                fascina cómo la tecnología crea experiencias complejas, lo cual
+                también alimenta mi curiosidad técnica.
+              </p>
+              <p
+                style="
+                  margin-top: 0.5rem;
+                  color: var(--acento);
+                  font-size: 0.82rem;
+                "
+              >
+                🎮 PC Gaming • 🕹️ FPS, RPG, Strategy • 🎯 Competitivo casual
+              </p>
+            </div>
+          </div>
+
+          <!-- Galería de imágenes -->
+          <div class="cuadricula-galeria">
+            <div class="item-galeria">
+              <img src="../img/alejandro-1.jpg" alt="Momento fútbol" />
+            </div>
+            <div class="item-galeria">
+              <img src="../img/alejandro-2.jpg" alt="Gaming setup" />
+            </div>
+            <div class="item-galeria">
+              <img src="../img/alejandro-3.jpg" alt="Coding workspace" />
+            </div>
+            <div class="item-galeria">
+              <img src="../img/alejandro-4.jpg" alt="Tech conference" />
+            </div>
+            <div class="item-galeria">
+              <img src="../img/alejandro-5.jpg" alt="Team project" />
+            </div>
+            <div class="item-galeria">
+              <img src="../img/alejandro-6.jpg" alt="Momento personal" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Contacto/Redes -->
+      <section class="seccion servicios" id="contacto">
+        <div class="contenedor" style="text-align: center">
+          <h2 class="titulo-seccion" style="text-align: center">Conectemos</h2>
+          <p class="descripcion-tag" style="margin-bottom: 2rem">
+            Abierto a oportunidades de colaboración, prácticas profesionales y
+            proyectos desafiantes. Si tienes algo interesante en mente,
+            hablemos.
+          </p>
+          <div
+            style="
+              display: flex;
+              gap: 1rem;
+              justify-content: center;
+              flex-wrap: wrap;
+            "
+          >
+            <a
+              href="https://github.com/alejandrobr10"
+              class="btn-principal"
+              style="text-decoration: none"
+            >
+              <i class="bx bxl-github"></i> GitHub
+            </a>
+            <a
+              href="https://linkedin.com/in/alejandro"
+              class="btn-principal"
+              style="text-decoration: none; background: #0077b5"
+            >
+              <i class="bx bxl-linkedin"></i> LinkedIn
+            </a>
+            <a
+              href="mailto:alejandro@example.com"
+              class="btn-principal"
+              style="text-decoration: none; background: #ea4335"
+            >
+              <i class="bx bx-envelope"></i> Email
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie-pagina">
+      <div class="contenedor pie-interno">
+        <span class="logo-pie"
+          ><span class="logo-corchete">[</span>Alejandro<span
+            class="logo-corchete"
+            >]</span
+          ></span
+        >
+        <div class="redes-sociales">
+          <a href="https://github.com/alejandrobr10" aria-label="GitHub"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/alejandro" aria-label="LinkedIn"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/alejandro" aria-label="Twitter"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="mailto:alejandro@example.com" aria-label="Email"
+            ><i class="bx bx-envelope"></i
+          ></a>
+        </div>
+        <p class="derechos">
+          © 2026 Alejandro · Backend Developer & Software Engineer
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Script para menú desplegable
+      const botonMenu = document.getElementById("botonMenu");
+      const menuDesplegable = document.getElementById("menuDesplegable");
+
+      botonMenu?.addEventListener("click", () => {
+        botonMenu.classList.toggle("activo");
+        menuDesplegable.classList.toggle("abierto");
+      });
+
+      // Cerrar menú al hacer clic en un enlace
+      document.querySelectorAll(".item-menu").forEach((item) => {
+        item.addEventListener("click", () => {
+          botonMenu.classList.remove("activo");
+          menuDesplegable.classList.remove("abierto");
+        });
+      });
+
+      // Scroll suave al hacer clic en "Conocer más"
+      document
+        .getElementById("btnVerHabilidades")
+        ?.addEventListener("click", () => {
+          document
+            .getElementById("sobre-mi")
+            ?.scrollIntoView({ behavior: "smooth" });
+        });
+
+      // Cerrar menú al hacer clic fuera
+      document.addEventListener("click", (e) => {
+        if (
+          !botonMenu.contains(e.target) &&
+          !menuDesplegable.contains(e.target)
+        ) {
+          botonMenu.classList.remove("activo");
+          menuDesplegable.classList.remove("abierto");
+        }
+      });
+    </script>
+  </body>
+</html>
