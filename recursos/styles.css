@@ -200,7 +200,7 @@ img { max-width: 100%; display: block; }
     justify-content: center;
     max-width: 600px;
     margin: 0 auto 2rem;
-}
+}   
 
 .tecnologias span {
     font-family: var(--fuente-mono);
