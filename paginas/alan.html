@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Perfil | Alan Barrera</title>
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../recursos/styles.css" />
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="logo-nav">
+                <span class="logo-corchete">{</span> Alan.bin
+                <span class="logo-corchete">}</span>
+            </div>
+
+            <button class="boton-menu" id="botonMenu">
+                <img
+                    src="../img/hamburger.svg"
+                    class="icono-hamburguesa"
+                    alt="Menu"
+                />
+            </button>
+
+            <div class="menu-desplegable" id="menuDesplegable"></div>
+        </nav>
+
+        <header class="header" style="min-height: 80vh">
+            <div class="fondo-cuadricula"></div>
+
+            <div class="tag">
+                <span class="etiqueta"
+                    >LINUX • SYSADMIN • BACKEND • C / C++</span
+                >
+
+                <h1 class="titulo-tag">
+                    Hola, soy <span class="acento">Alan Barrera Gudiño</span>
+                </h1>
+
+                <p class="descripcion-tag">
+                    Estudiante de <strong>Ingeniería de Software</strong> en la
+                    <strong>Universidad Autónoma de Querétaro (UAQ)</strong>. Me
+                    enfoco en <strong>sistemas GNU/Linux</strong>, backend
+                    robusto y <strong>Desarrollo Web</strong>. Me interesa
+                    construir software eficiente, entender cómo funciona el
+                    sistema operativo por dentro y crear soluciones reales para
+                    negocios y servidores.
+                </p>
+
+                <div class="tech-stack">
+                    <span class="tech-pill"
+                        ><i class="bx bxl-tux"></i> Linux</span
+                    >
+                    <span class="tech-pill"
+                        ><i class="bx bx-terminal"></i> Bash</span
+                    >
+                    <span class="tech-pill"
+                        ><i class="bx bx-code-alt"></i> C</span
+                    >
+                    <span class="tech-pill"
+                        ><i class="bx bx-code-curly"></i> C++</span
+                    >
+                    <span class="tech-pill"
+                        ><i class="bx bxl-nodejs"></i> Node.js</span
+                    >
+                    <span class="tech-pill"
+                        ><i class="bx bxl-typescript"></i> TypeScript</span
+                    >
+                    <span class="tech-pill"
+                        ><i class="bx bxl-postgresql"></i> PostgreSQL</span
+                    >
+                    <span class="tech-pill"
+                        ><i class="bx bxl-docker"></i> Docker</span
+                    >
+                </div>
+
+                <br />
+
+                <button class="btn-principal" id="btnVerServicios">
+                    Ver proyectos y enfoque profesional
+                    <i class="bx bx-down-arrow-alt"></i>
+                </button>
+            </div>
+        </header>
+
+        <section
+            class="seccion servicios"
+            id="servicios"
+            style="padding-bottom: 0"
+        >
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Formación y Enfoque</h2>
+                <p class="subtitulo-seccion">
+                    Construyendo bases sólidas en sistemas y backend.
+                </p>
+
+                <div
+                    class="glass-card"
+                    style="overflow: hidden; word-wrap: break-word"
+                >
+                    <h3>Educación y Especialización</h3>
+                    <ul
+                        style="
+                            color: var(--texto-suave);
+                            font-size: 0.9rem;
+                            padding-left: 20px;
+                            margin-top: 10px;
+                        "
+                    >
+                        <li><strong>UAQ – Ingeniería de Software</strong></li>
+                        <li>
+                            <strong>Enfoque en Linux:</strong> administración,
+                            terminal, particiones, procesos y redes.
+                        </li>
+                        <li>
+                            <strong>Backend moderno:</strong> Node.js, NestJS y
+                            PostgreSQL.
+                        </li>
+                        <li>
+                            <strong>Intereses actuales:</strong> SysAdmin,
+                            servidores, automatización, seguridad y desarrollo
+                            en C.
+                        </li>
+                        <li><strong>Taller </strong>Desarrollo Web Avanzado</li>
+                        <li>
+                            <strong>Taller </strong>Desarrollo De Aplicaciones
+                            de Alto Rendimiento con Go
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion galeria" style="background: var(--fondo2)">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Proyectos Prácticos</h2>
+                <p class="subtitulo-seccion">
+                    Sistemas • Backend • Automatización.
+                </p>
+
+                <div class="cuadricula-servicios">
+                    <div class="glass-card">
+                        <h3 style="font-size: 1.1rem; color: var(--acento)">
+                            LAIRA SECURITY – Plataforma Empresarial Full-Stack
+                            (NestJS + PostgreSQL)
+                        </h3>
+
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Plataforma integral para empresas de seguridad
+                            electrónica. Sistema web centralizado para gestión
+                            de clientes, inventario, grabaciones, facturación y
+                            ventas en línea.
+                        </p>
+
+                        <ul
+                            style="
+                                color: var(--texto-suave);
+                                font-size: 0.85rem;
+                                padding-left: 18px;
+                                margin-bottom: 10px;
+                            "
+                        >
+                            <li>
+                                Gestión de inventario y equipos de seguridad.
+                            </li>
+                            <li>Administración de clientes y ubicaciones.</li>
+                            <li>Control de usuarios y roles (JWT / OAuth).</li>
+                            <li>Gestión de camaras de seguridad</li>
+                        </ul>
+
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Backend en <strong>NestJS + TypeScript</strong>,
+                            base de datos
+                            <strong>PostgreSQL con Prisma ORM</strong>, frontend
+                            con <strong>Vite + Bootstrap 5</strong> y
+                            arquitectura lista para producción.
+                        </p>
+
+                        <a
+                            href="https://github.com/AlejandroBR10/laira-security-project-front"
+                            target="_blank"
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--acento);
+                                font-weight: 600;
+                                text-decoration: none;
+                            "
+                        >
+                            Ver repositorio en GitHub →
+                        </a>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 style="font-size: 1.1rem; color: var(--acento)">
+                            Cinelink App – Aplicación Móvil de Cine (Flutter +
+                            NestJS)
+                        </h3>
+
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Aplicación móvil full-stack desarrollada en
+                            <strong>Flutter</strong> con conexión a backend en
+                            <strong>NestJS</strong> para gestión de películas,
+                            funciones y reserva de asientos.
+                        </p>
+
+                        <ul
+                            style="
+                                color: var(--texto-suave);
+                                font-size: 0.85rem;
+                                padding-left: 18px;
+                                margin-bottom: 10px;
+                            "
+                        >
+                            <li>Catálogo dinámico con búsqueda y filtros.</li>
+                            <li>Visualización de horarios y funciones.</li>
+                            <li>
+                                Sistema interactivo de selección de asientos.
+                            </li>
+                            <li>
+                                Reproductor embebido de trailers de YouTube.
+                            </li>
+                            <li>
+                                UI cinematográfica con blur avanzado y caché
+                                optimizado.
+                            </li>
+                        </ul>
+
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Consumo de API REST, manejo de estado con
+                            <strong>Provider</strong>, peticiones con
+                            <strong>Dio</strong> y optimización de rendimiento
+                            con <strong>cached_network_image</strong>.
+                        </p>
+
+                        <a
+                            href="https://github.com/AlanEBG/Cinelink-App"
+                            target="_blank"
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--acento);
+                                font-weight: 600;
+                                text-decoration: none;
+                            "
+                        >
+                            Ver repositorio en GitHub →
+                        </a>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 style="font-size: 1.1rem; color: var(--acento)">
+                            Project Race – Juego Multijugador en Tiempo Real
+                            (Phaser + Socket.IO)
+                        </h3>
+
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Videojuego multijugador desarrollado con
+                            <strong>Phaser.js</strong> y sincronización en
+                            tiempo real mediante <strong>Socket.IO</strong>. Los
+                            jugadores compiten completando combos de teclas para
+                            avanzar en la pista.
+                        </p>
+
+                        <ul
+                            style="
+                                color: var(--texto-suave);
+                                font-size: 0.85rem;
+                                padding-left: 18px;
+                                margin-bottom: 10px;
+                            "
+                        >
+                            <li>
+                                Carrera en tiempo real sincronizada por
+                                WebSockets.
+                            </li>
+                            <li>Selección personalizada de coche.</li>
+                            <li>
+                                Validación de combos para mecánica de avance.
+                            </li>
+                            <li>
+                                Animaciones dinámicas y pantalla de resultados.
+                            </li>
+                        </ul>
+
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Arquitectura modular basada en escenas (Preload,
+                            Menu, Race, Winner), entorno de desarrollo con
+                            <strong>Vite</strong> y comunicación
+                            cliente-servidor en tiempo real.
+                        </p>
+
+                        <a
+                            href="https://github.com/IanB28/project-race-sockets"
+                            target="_blank"
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--acento);
+                                font-weight: 600;
+                                text-decoration: none;
+                            "
+                        >
+                            Ver repositorio en GitHub →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion musica" style="background: var(--fondo1)">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Gustos Musicales</h2>
+                <p class="subtitulo-seccion">
+                    Música que escucho mientras programo o trabajo en proyectos.
+                </p>
+
+                <div class="cuadricula-servicios">
+                    <div class="glass-card" style="text-align: center">
+                        <img
+                            src="../img/carteldesanta.jpg"
+                            alt="Cartel de Santa"
+                            style="
+                                width: 110%;
+                                max-height: 250px;
+                                object-fit: cover;
+                                border-radius: 12px;
+                                margin-bottom: 10px;
+                            "
+                        />
+                        <h3 style="color: var(--acento); font-size: 1.1rem">
+                            Cartel de Santa
+                        </h3>
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                            "
+                        >
+                            Rap mexicano con estilo crudo y directo. Ideal para
+                            sesiones largas de código.
+                        </p>
+                    </div>
+
+                    <div class="glass-card" style="text-align: center">
+                        <img
+                            src="../img/pesopluma.jpg"
+                            alt="Peso Pluma"
+                            style="
+                                width: 100%;
+                                max-height: 250px;
+                                object-fit: cover;
+                                border-radius: 12px;
+                                margin-bottom: 10px;
+                            "
+                        />
+                        <h3 style="color: var(--acento); font-size: 1.1rem">
+                            Peso Pluma
+                        </h3>
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                            "
+                        >
+                            Corridos modernos con energía actual, perfectos para
+                            trabajar con flow.
+                        </p>
+                    </div>
+
+                    <div class="glass-card" style="text-align: center">
+                        <img
+                            src="../img/josejose.jpg"
+                            alt="José José"
+                            style="
+                                width: 100%;
+                                max-height: 250px;
+                                object-fit: cover;
+                                border-radius: 12px;
+                                margin-bottom: 10px;
+                            "
+                        />
+                        <h3 style="color: var(--acento); font-size: 1.1rem">
+                            José José
+                        </h3>
+                        <p
+                            style="
+                                font-size: 0.85rem;
+                                color: var(--texto-suave);
+                            "
+                        >
+                            Clásicos románticos para concentración profunda y
+                            debugging existencial.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="pie-pagina">
+            <div class="pie-interno">
+                <div class="logo-pie">Alan Barrera Gudiño © 2026</div>
+
+                <div class="redes">
+                    <a href="https://github.com/AlanEBG" target="_blank">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                </div>
+
+                <p class="derechos">Desarrollado en Querétaro, México.</p>
+            </div>
+        </footer>
+
+        <script src="../script.js"></script>
+    </body>
+</html>
