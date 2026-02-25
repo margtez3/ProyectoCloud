@@ -16,7 +16,7 @@ const menu = document.getElementById('menuDesplegable');
 const boton = document.getElementById('botonMenu');
 
 enlacesNav.forEach(({ etiqueta, icono, url }) => {
-    menu.innerHTML += <a href="${url}" target="_blank" class="item-menu"><i class='bx ${icono}'></i>${etiqueta}</a>;
+    menu.innerHTML += `<a href="${url}" target="_blank" class="item-menu"><i class='bx ${icono}'></i>${etiqueta}</a>`;
 });
 
 boton.onclick = () => {
