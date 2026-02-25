@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil | Angel (Franco)</title>
+    <title>Perfil | Luis Ángel Franco</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../recursos/styles.css">
 </head>
@@ -11,77 +11,185 @@
 
     <nav class="navbar">
         <div class="logo-nav">
-            <span class="logo-corchete">{</span> Angel.dev <span class="logo-corchete">}</span>
+            <span class="logo-corchete">{</span> LuisAngel.wav <span class="logo-corchete">}</span>
         </div>
+
         <button class="boton-menu" id="botonMenu">
-            <img src="https://cdn-icons-png.flaticon.com/512/6015/6015685.png" class="icono-hamburguesa" alt="Menu">
+            <img src="../img/hamburger.svg" class="icono-hamburguesa" alt="Menu">
         </button>
-        <div class="menu-desplegable" id="menuDesplegable">
-            </div>
+
+        <div class="menu-desplegable" id="menuDesplegable"></div>
     </nav>
 
-    <header class="header">
+    <header class="header" style="min-height: 80vh;">
         <div class="fondo-cuadricula"></div>
+
         <div class="tag">
-            <span class="etiqueta">STUDENT & DEVELOPER</span>
-            <h1 class="titulo-tag">Hola, soy <span class="acento">Angel</span></h1>
+            <span class="etiqueta">DESARROLLADOR | FULL-STACK WEB • DATOS • IA</span>
+
+            <h1 class="titulo-tag">Hola, soy <span class="acento">Luis Angel Antonio Franco</span></h1>
+
             <p class="descripcion-tag">
-                Estudiante de Ingeniería en Computación en Querétaro. Apasionado por el backend, los algoritmos y el análisis de datos.
+                Estudiante de <strong>Ingeniería de Software (6º semestre)</strong> en la <strong>Universidad Autónoma de Querétaro (UAQ)</strong>.
+                Me gusta construir productos completos: desde el <strong>frontend</strong> hasta el <strong>backend</strong>, conectando bases de datos
+                y agregando análisis para tomar mejores decisiones. Me mueven los proyectos reales, el aprendizaje constante y resolver problemas con lógica.
             </p>
+
+            <div class="tech-stack">
+                <span class="tech-pill"><i class='bx bxl-html5'></i> HTML / CSS</span>
+                <span class="tech-pill"><i class='bx bxl-bootstrap'></i> Bootstrap</span>
+                <span class="tech-pill"><i class='bx bxl-javascript'></i> JavaScript</span>
+                <span class="tech-pill"><i class='bx bxl-nodejs'></i> Node.js</span>
+                <span class="tech-pill"><i class='bx bxl-php'></i> PHP</span>
+                <span class="tech-pill"><i class='bx bxl-postgresql'></i> PostgreSQL / MySQL</span>
+                <span class="tech-pill"><i class='bx bxl-python'></i> Python</span>
+                <span class="tech-pill"><i class='bx bx-line-chart'></i> R </span>
+                <span class="tech-pill"><i class='bx bxl-java'></i> Java</span>
+                <span class="tech-pill"><i class='bx bx-code-alt'></i> C++</span>
+            </div>
+
+            <br>
+
             <button class="btn-principal" id="btnVerServicios">
-                Explorar mis gustos <i class='bx bx-down-arrow-alt'></i>
+                Ver mis proyectos y formación <i class='bx bx-down-arrow-alt'></i>
             </button>
         </div>
     </header>
 
     <section class="seccion servicios" id="servicios">
         <div class="contenedor">
-            <h2 class="titulo-seccion">Mis Intereses</h2>
-            <p class="subtitulo-seccion">Lo que me motiva a seguir aprendiendo y creando.</p>
-            
-            <div class="cuadricula-servicios">
-                <div class="tarjeta-servicio">
-                    <div class="numero">01</div>
-                    <h3>Desarrollo Backend</h3>
-                    <p>Me especializo en C# y .NET 9. Actualmente migrando APIs REST a RESTful con ayuda de Copilot.</p>
-                </div>
-                <div class="tarjeta-servicio">
-                    <div class="numero 02">02</div>
-                    <h3>Sports Analytics</h3>
-                    <p>Fanático del análisis deportivo, especialmente en la NBA y NFL. Me gusta aplicar lógica y datos al deporte.</p>
-                </div>
-                <div class="tarjeta-servicio">
-                    <div class="numero">03</div>
-                    <h3>Cloud Computing</h3>
-                    <p>Explorando el ecosistema de AWS y Azure para construir aplicaciones seguras y escalables.</p>
-                </div>
+            <h2 class="titulo-seccion">Formación y Certificaciones</h2>
+            <p class="subtitulo-seccion">Aprendizaje continuo en desarrollo, datos e IA.</p>
+
+            <div class="glass-card" style="border-left: 4px solid rgba(88, 166, 255, 0.08);">
+                <h3>Educación y Cursos Destacados</h3>
+                <ul style="color: var(--texto-suave); font-size: 0.9rem; padding-left: 20px; margin-top: 10px;">
+                    <li style="margin-bottom: 5px;"><strong>UAQ – Ingeniería de Software:</strong> 6º semestre</li>
+                    <li style="margin-bottom: 5px;"><strong>Programación Estadística en R:</strong> análisis, visualización y fundamentos de estadística aplicada.</li>
+                    <LI style="margin-bottom: 5px;"><strong>Visualizacion de Datos con Python.</strong> </LI>
+                    <li style="margin-bottom: 5px;"><strong>IA aplicada al desarrollo:</strong> </li>
+                    <li><strong>Intereses actuales:</strong> APIs, arquitectura, bases relacionales, análisis de datos y automatización con IA.</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section class="seccion galeria">
+    <section class="seccion galeria" style="background: var(--fondo2);">
         <div class="contenedor">
-            <h2 class="titulo-seccion">Galería</h2>
-            <div class="cuadricula-galeria">
-                <div class="item-galeria">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=500" alt="Tech">
+            <h2 class="titulo-seccion">Proyectos Prácticos</h2>
+            <p class="subtitulo-seccion">Frontend • Backend • Bases de datos • Datos.</p>
+
+            <div class="cuadricula-servicios">
+
+                <div class="glass-card">
+                    <h3 style="font-size: 1.1rem; color: var(--acento);">LAIRA SECURITY – Sistema de Seguridad</h3>
+                    <p style="font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 10px;">
+                        Sistema web para gestión de <strong>clientes</strong>, <strong>cámaras</strong> y flujo de atención.
+                        Desarrollo de interfaces con <strong>HTML/CSS/Bootstrap</strong> y lógica de formularios.
+                        Integración a <strong>Node.js + PostgreSQL</strong> para operaciones tipo CRUD y control de datos.
+                    </p>
                 </div>
-                <div class="item-galeria sin-imagen"></div>
-                <div class="item-galeria sin-imagen"></div>
+
+                <div class="glass-card">
+                    <h3 style="font-size: 1.1rem; color: var(--acento);">TiendaCelulares – Base de Datos Relacional</h3>
+                    <p style="font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 10px;">
+                        Diseño e implementación de BD con tablas como <strong>sucursal, proveedor, categoría y producto</strong>.
+                        Relaciones, inserción de datos y consultas SQL. Enfoque en integridad, normalización y operaciones reales.
+                    </p>
+                </div>
+
+                <div class="glass-card">
+                    <h3 style="font-size: 1.1rem; color: var(--acento);">E-commerce / Ventas Web (PHP + MySQL)</h3>
+                    <p style="font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 10px;">
+                        Proyecto web tipo tienda (ventas de cartas / catálogo) con <strong>PHP, JavaScript y MySQL</strong>.
+                        CRUD completo, estructura relacional, pantallas de productos y flujo básico de compra.
+                    </p>
+                </div>
+
+                <div class="glass-card">
+                    <h3 style="font-size: 1.1rem; color: var(--acento);">Análisis de Datos (Python / R)</h3>
+                    <p style="font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 10px;">
+                        Limpieza y análisis de datasets con métricas y visualizaciones.
+                        Me enfoco en convertir números en conclusiones claras: tendencias, comparaciones, gráficos y reportes.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
 
+<section class="seccion integrantes" style="background: var(--fondo2);">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Vibra & Música</h2>
+            <p class="subtitulo-seccion">Mi combustible para la vida.</p>
+
+            <div class="hobbies-grid">
+
+            <div class="hobby-item">
+                <i class='bx bx-headphone'></i>
+                <h3 style="font-size: 1rem; margin-bottom: 5px;">Playlist principal</h3>
+                <p style="font-size: 0.85rem; color: var(--texto-suave);">
+                <strong>Hip-Hop</strong> y <strong>Reggaetón</strong>.
+                </p>
+            </div>
+
+            <div class="hobby-item">
+                <i class='bx bx-music'></i>
+                <h3 style="font-size: 1rem; margin-bottom: 5px;">Artistas top</h3>
+                <p style="font-size: 0.85rem; color: var(--texto-suave);">
+                <strong>Drake y Roc Marciano</strong>
+                </p>
+            </div>
+
+            </div>
+
+            <div class="glass-card" style="margin-top: 18px; border-left: 4px solid var(--acento);">
+            <h3 style="margin-bottom: 8px;">Mini resumen</h3>
+            <p style="color: var(--texto-suave); font-size: 0.9rem; margin: 0;">
+                <strong>Hip-hop + reggaetón</strong> como base. Me gusta escuchar de todo, pero si me querés ubicar rápido:
+                <span style="color: var(--acento); font-weight: 600;">Drake</span> y <span style="color: var(--acento); font-weight: 600;">Roc Marciano</span>.
+            </p>
+        </div>
+
+  </div>
+</section>
+<section class="seccion galeria" id="galeria-personal">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">En Galeria </h2>
+            <p class="subtitulo-seccion">Tres momentos o pasiones que me representan.</p>
+            
+            <div class="cuadricula-galeria">
+                
+                <div class="item-galeria">
+                    <img src="../img/cartman.jpg" alt="yo">
+                </div>
+
+                <div class="item-galeria">
+                    <img src="../img/minecraft.jpg" alt="Gaming y tiempo libre">
+                </div>
+
+                <div class="item-galeria">
+                    <img src="../img/jordan.jpg" alt="Análisis deportivo">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
     <footer class="pie-pagina">
         <div class="pie-interno">
-            <div class="logo-pie">Angel Franco © 2026</div>
-            <div class="redes-sociales">
-                <a href="https://github.com/Angxxxl" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <div class="logo-pie">Luis Angel Antonio Franco © 2026</div>
+
+            <div class="redes">
+                <a href="https://github.com/Angxxxl" target="_blank" aria-label="GitHub">
+                    <i class='bx bxl-github'></i>
+                </a>
             </div>
-            <p class="derechos">Hecho con { } en Querétaro, México.</p>
+
+            <p class="derechos">Desarrollado en Querétaro, México.</p>
         </div>
     </footer>
 
-<script src="../script.js"></script></body>
+    <script src="../script.js"></script>
+</body>
 </html>
