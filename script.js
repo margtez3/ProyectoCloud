@@ -22,9 +22,7 @@ if (menu) {
     });
 }
 
-enlacesNav.forEach(({ etiqueta, icono, url }) => {
-    menu.innerHTML += `<a href="${url}" target="_blank" class="item-menu"><i class='bx ${icono}'></i>${etiqueta}</a>`;
-});
+
 
 boton.onclick = () => {
     menu.classList.toggle('abierto');
